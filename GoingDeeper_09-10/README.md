@@ -14,7 +14,7 @@ U-Net을 통한 시맨틱 세그멘테이션 결과가 충분히 만족스러우
 
 
 ##### 발생한 에러2:  PermissionDeniedError: Read-only file system
-model.save()에서 PermissionDeniedError: Read-only file system 에러가 발생하였다. 파일 경로를 os.getenv('HOME')+'/aiffel/data/training/semantic_segmentation/model_unet_pp.h5'에서 os.getenv('HOME')+'/aiffel/semantic_segmentation/model_unet_pp.h5'으로 바꾼 결과 에러가 해결되었다.(갓상현님이 도와주셨다)  
+model.save()에서 PermissionDeniedError: Read-only file system 에러가 발생하였다. 파일 경로를 바꾼 결과 에러가 해결되었다.(갓상현님이 도와주셨다)  
 에러가 발생한 이유는 잘 모르겠다.
 
 ##### 결과 
