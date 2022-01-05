@@ -19,3 +19,5 @@ model.save()에서 PermissionDeniedError: Read-only file system 에러가 발생
 
 ##### 결과 
 원인은 아직 발견하지 못했으나, U-Net++ 모델의 IoU 가 더 낮게 나왔다.
+
+Reference : MulderKim님 Github https://github.com/MulderKim
